@@ -13,6 +13,5 @@ cache:
   yarn: true
 
 script:
-  - commitlint-travis
   - yarn lint
   - yarn test
